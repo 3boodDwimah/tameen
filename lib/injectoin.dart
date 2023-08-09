@@ -14,7 +14,7 @@ final sl = GetIt.instance;
 
 Future iniGetIt() async {
   sl.registerLazySingleton(() => ((Dio(BaseOptions(
-      baseUrl: 'https://demo2.diswitch.com/api_v2/',
+      baseUrl: 'https://0000.diswitch.com/api_v2/',
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
